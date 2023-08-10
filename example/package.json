@@ -1,0 +1,19 @@
+{
+  "name": "templgen-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Example generator CLI powered by templgen",
+  "license": "MIT",
+  "author": "Fardjad Davari <public@fardjad.com>",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "glob": "^10.3.3",
+    "rimraf": "^5.0.1",
+    "templgen": "file:..",
+    "tree-node-cli": "^1.6.0"
+  }
+}
