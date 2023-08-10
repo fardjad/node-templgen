@@ -7,6 +7,13 @@ export type RenderFunction = (
   template: string,
   /** The variables to substitute in the template */
   data?: Record<string, unknown>,
+  /** The paths of the files/directories involved in the rendering */
+  paths?: {
+    sourceDirectory: string;
+    targetDirectory: string;
+    templateFilePath: string;
+    targetFilePath: string;
+  },
 ) => Promise<string>;
 
 export type FileGeneratorOptions = {
@@ -85,7 +92,12 @@ export class FileGenerator {
         const template = await this.#readFile(templateFilePath, {
           encoding: "utf8",
         });
-        const renderedContent = await this.#render(template, variables);
+        const renderedContent = await this.#render(template, variables, {
+          sourceDirectory,
+          targetDirectory,
+          templateFilePath,
+          targetFilePath: computedPath,
+        });
         await this.#writeFile(computedPath, renderedContent, {
           encoding: "utf8",
         });

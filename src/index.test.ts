@@ -184,6 +184,14 @@ await test("generate", async (t) => {
           content: "content",
           variable: "replaced",
         },
+        {
+          sourceDirectory,
+          targetDirectory,
+          targetFilePath: "/target/directory/ejs",
+          templateFilePath: fileURLToPath(
+            new URL("__fixtures__/ejs.template", import.meta.url),
+          ),
+        },
       ],
     ],
   );
