@@ -7,13 +7,13 @@
     "generate",
     "generator"
   ],
-  "homepage": "https://github.com/fardjad/templgen",
+  "homepage": "https://github.com/fardjad/node-templgen",
   "bugs": {
-    "url": "https://github.com/fardjad/templgen/issues"
+    "url": "https://github.com/fardjad/node-templgen/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/fardjad/templgen.git"
+    "url": "git+ssh://git@github.com/fardjad/node-templgen.git"
   },
   "license": "MIT",
   "author": "Fardjad Davari <public@fardjad.com>",

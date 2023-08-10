@@ -2,7 +2,7 @@
 
 # TemplGen
 
-<img alt="TemplGen Logo" width="300px" height="300px" src="/media/logo.png">
+<img alt="TemplGen Logo" width="300px" height="300px" src="./media/logo.png">
 
 Extensible template based file generator
 
@@ -16,9 +16,15 @@ Extensible template based file generator
 
 <hr />
 
+TemplGen is a small and extensible template based file generator module that
+provides a simple API for creating code scaffolding tools.
+
+It borrows some ideas from [Nx](https://nx.dev/) but it is meant to be used as a
+building block for creating CLI tools rather than being a full fledged tool
+itself.
+
 ## Features
 
-- Easy to use TypeScript API
 - ESM and CommonJS support
 - Support for copying binary files as well as rendering template files
 - Variable substitution in file names
@@ -61,7 +67,7 @@ await fileGenerator.generate(
 );
 ```
 
-See [example](https://github.com/fardjad/node-templgen/tree/main/example) for a working example.
+See [example](./example) for a working example.
 
 ### Advanced Usage
 
