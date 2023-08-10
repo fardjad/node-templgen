@@ -108,11 +108,12 @@ const variables = {
 };
 
 const fileGenerator = new FileGenerator({
-  render: async (template, variables, paths) =>
+  render: async (template, variables, paths) => {
     // The paths in the paths object can be used for caching, logging, etc.
     console.log(paths);
 
-    return Handlebars.compile(template)(variables),
+    return Handlebars.compile(template)(variables);
+  },
 });
 
 await fileGenerator.generate(
