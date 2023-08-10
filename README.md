@@ -47,7 +47,7 @@ await fileGenerator.generate(
 );
 ```
 
-See [example](./example) for a working example.
+See [example](https://github.com/fardjad/node-templgen/tree/main/example) for a working example.
 
 ### Advanced Usage
 
