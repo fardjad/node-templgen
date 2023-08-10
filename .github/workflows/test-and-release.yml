@@ -6,10 +6,12 @@ on:
       - main
     paths-ignore:
       - "example/**"
+      - "media/**"
       - "LICENSE"
   pull_request:
     paths-ignore:
       - "example/**"
+      - "media/**"
       - "LICENSE"
 
 jobs:

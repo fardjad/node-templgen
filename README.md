@@ -1,6 +1,20 @@
+<div align="center">
+
 # TemplGen
 
-> Extensible template based file generator
+<img alt="TemplGen Logo" width="300px" height="300px" src="/media/logo.png">
+
+Extensible template based file generator
+
+<div class="paragraph">
+
+<span class="image"><a href="https://www.npmjs.com/package/templgen" class="image"><img src="https://img.shields.io/npm/v/templgen" alt="templgen" /></a></span> <span class="image"><a href="https://www.npmjs.com/package/templgen" class="image"><img src="https://img.shields.io/npm/dm/templgen" alt="templgen" /></a></span> <span class="image"><a href="https://github.com/fardjad/node-templgen/actions" class="image"><img src="https://img.shields.io/github/actions/workflow/status/fardjad/node-templgen/test-and-release.yml?branch=main" alt="test and release" /></a></span>
+
+</div>
+
+</div>
+
+<hr />
 
 ## Features
 
