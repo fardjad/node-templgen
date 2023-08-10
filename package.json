@@ -63,6 +63,7 @@
     "eslint-config-xo-typescript": "^1.0.1",
     "eslint-plugin-unicorn": "^48.0.1",
     "glob": "^10.3.3",
+    "npm-check-updates": "^16.10.18",
     "prettier": "^3.0.0",
     "prettier-plugin-packagejson": "^2.4.5",
     "tsup": "^7.1.0",
