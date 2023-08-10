@@ -1,6 +1,6 @@
 {
   "name": "templgen",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Extensible template based file generator",
   "keywords": [
     "template",
