@@ -19,7 +19,7 @@ Extensible template based file generator
 TemplGen is a small and extensible template based file generator module that
 provides a simple API for creating code scaffolding tools.
 
-It borrows some ideas from [Nx](https://nx.dev/) but it is meant to be used as a
+It borrows some ideas from [Nx][1] but it is meant to be used as a
 building block for creating CLI tools rather than being a full fledged tool
 itself.
 
@@ -28,10 +28,10 @@ itself.
 - ESM and CommonJS support
 - Support for copying binary files as well as rendering template files
 - Variable substitution in file names
-- Use EJS (default) or any other template engine
-- Overridable file system methods. You can override the default functions used
+- Use EJS (by default) or [any other template engine][2]
+- Overridable file system methods. You can [override][3] the default functions used
   to create directories, read files, write files, and copy files. That is
-  useful for testing, logging, implementing interactive prompts, etc.
+  useful for [testing][4], logging, implementing interactive prompts, etc.
 
 ## Installation
 
@@ -143,3 +143,8 @@ await fileGenerator.generate(
   variables,
 );
 ```
+
+[1]: https://nx.dev/core-features/plugin-features/use-code-generators
+[2]: #custom-template-engine
+[3]: #custom-file-system-functions
+[4]: ./src/index.test.ts
