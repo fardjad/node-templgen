@@ -1,6 +1,6 @@
 {
   "name": "templgen",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "description": "Extensible template based file generator",
   "keywords": [
     "template",
@@ -64,7 +64,7 @@
     "eslint-plugin-unicorn": "^48.0.1",
     "glob": "^10.3.3",
     "npm-check-updates": "^16.13.2",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "prettier-plugin-packagejson": "^2.4.5",
     "tsup": "^7.2.0",
     "tsx": "^3.12.7",
