@@ -32,12 +32,12 @@ export type FileGeneratorOptions = {
 };
 
 export class FileGenerator {
-  #mkdir: FileGeneratorOptions["mkdir"];
-  #readFile: FileGeneratorOptions["readFile"];
-  #writeFile: FileGeneratorOptions["writeFile"];
-  #copyFile: FileGeneratorOptions["copyFile"];
-  #render: FileGeneratorOptions["render"];
-  #templateExtension: FileGeneratorOptions["templateExtension"];
+  readonly #mkdir: FileGeneratorOptions["mkdir"];
+  readonly #readFile: FileGeneratorOptions["readFile"];
+  readonly #writeFile: FileGeneratorOptions["writeFile"];
+  readonly #copyFile: FileGeneratorOptions["copyFile"];
+  readonly #render: FileGeneratorOptions["render"];
+  readonly #templateExtension: FileGeneratorOptions["templateExtension"];
 
   /**
    *
