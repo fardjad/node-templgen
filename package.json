@@ -1,6 +1,6 @@
 {
   "name": "templgen",
-  "version": "0.1.132",
+  "version": "0.1.133",
   "description": "Extensible template based file generator",
   "keywords": [
     "template",
@@ -53,7 +53,7 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@types/ejs": "^3.1.5",
-    "@types/node": "^20.11.22",
+    "@types/node": "^20.11.24",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "c8": "^9.1.0",
