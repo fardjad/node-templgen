@@ -1,6 +1,6 @@
 {
   "name": "templgen",
-  "version": "0.1.150",
+  "version": "0.1.151",
   "description": "Extensible template based file generator",
   "keywords": [
     "template",
@@ -67,8 +67,8 @@
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.4.14",
     "tsup": "^8.0.2",
-    "tsx": "^4.7.1",
-    "typescript": "^5.4.3"
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
   },
   "engines": {
     "node": ">=18"
