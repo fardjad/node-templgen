@@ -1,6 +1,6 @@
 {
   "name": "templgen",
-  "version": "0.1.151",
+  "version": "0.1.152",
   "description": "Extensible template based file generator",
   "keywords": [
     "template",
@@ -48,7 +48,7 @@
     "test:coverage": "glob -c \"c8 --reporter=lcov tsx --test --test-reporter spec\" \"src/**/*.test.ts\""
   },
   "dependencies": {
-    "ejs": "^3.1.9"
+    "ejs": "^3.1.10"
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
